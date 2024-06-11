@@ -1,9 +1,31 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
   overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(30, 30, 30);
+  border-radius: 10px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(18, 18, 18);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  width: 8px;
+  background: rgb(25, 25, 25);
 }

@@ -65,7 +65,7 @@
         height: 2px;
         width: 0;
         margin: 12px;
-        bottom: 0;
+        bottom: -4px;
         left: 0;
         position: absolute;
         background-color: rgb(169, 3, 3);
